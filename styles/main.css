@@ -30,12 +30,20 @@ html {
   font-size: 1rem;
 }
 
+.f-12 {
+  font-size: 1.2rem;
+}
+
 .f-16 {
   font-size: 1.6rem;
 }
 
 .f-22 {
   font-size: 2.2rem;
+}
+
+.f-20 {
+  font-size: 2rem;
 }
 
 .f-30 {
@@ -164,6 +172,14 @@ html {
   margin-bottom: 2rem;
 }
 
+.mb-25 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
 .mb-110 {
   margin-bottom: 11rem;
 }
@@ -275,4 +291,31 @@ html {
   color: #004a7f;
   font-family: Open Sans;
   text-decoration-line: none;
+}
+.icici_landing_page .icici_product_wrapper .icici_ad_part_right {
+  margin: 5rem;
+}
+.icici_landing_page .icici_product_wrapper .icici_ad_part_right .icici_best_product_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.icici_landing_page .icici_product_wrapper .icici_ad_part_right .icici_best_product_wrapper .icici_product_cards {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.1rem;
+  border: 1px solid rgba(0, 122, 64, 0.2);
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08);
+}
+.icici_landing_page .icici_product_wrapper .icici_ad_part_right .icici_best_product_wrapper .icici_product_cards .icici_card_inside {
+  margin: 2.4rem 2.6rem 2.7rem 2.5rem;
+}
+.icici_landing_page .icici_product_wrapper .icici_ad_part_right .icici_best_product_wrapper .icici_product_cards .icici_card_title {
+  color: #414141;
+  font-family: Open Sans;
+}
+.icici_landing_page .icici_product_wrapper .icici_ad_part_right .icici_best_product_wrapper .icici_product_cards .icici_card_content {
+  color: #8b8b8b;
+  font-family: Open Sans;
 }/*# sourceMappingURL=main.css.map */
