@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: $font-open;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.icici_nav {
+  color: #fff;
+  width: 100%;
+}
+
+.icici_logo {
+  display: block;
+  margin: 1.8rem 0 1.9rem 4rem;
+}
+
+.icici_border {
+  height: 5rem;
+  background: linear-gradient(180deg, #f58f22 1.19%, #ef6712 100%);
+}

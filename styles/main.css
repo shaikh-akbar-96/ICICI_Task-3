@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+*,
+*::after,
+*::before,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.icici_nav {
+  color: #fff;
+  width: 100%;
+}
+
+.icici_logo {
+  display: block;
+  margin: 1.8rem 0 1.9rem 4rem;
+}
+
+.icici_border {
+  height: 5rem;
+  background: linear-gradient(180deg, #f58f22 1.19%, #ef6712 100%);
+}
+
+.f-10 {
+  font-size: 1rem;
+}
+
+.f-16 {
+  font-size: 1.6rem;
+}
+
+.f-22 {
+  font-size: 2.2rem;
+}
+
+.f-30 {
+  font-size: 3rem;
+}
+
+.f-400 {
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.dn.dnone {
+  display: none;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.mt-22 {
+  margin-top: 2.2rem;
+}
+
+.mt-40 {
+  margin-top: 4rem;
+}
+
+.mr-16 {
+  margin-right: 1.6rem;
+}
+
+.mr-18 {
+  margin-right: 1.8rem;
+}
+
+.mr-46 {
+  margin-right: 4.6rem;
+}
+
+.mb-12 {
+  margin-bottom: 1.2rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.mb-110 {
+  margin-bottom: 11rem;
+}
+
+.mb-110 {
+  margin-bottom: 11rem;
+}
+
+.ml-31 {
+  margin-left: 3.1rem;
+}
+
+.ml-60 {
+  margin-left: 6rem;
+}
+
+.w-14 {
+  width: 1.4rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.enbaleButton, .icici_search_button {
+  border-radius: 0.5rem;
+  background: #f3831d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.icici_search_button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 1rem;
+  width: 20rem;
+  height: 5rem;
+}
+
+.icici_landing_page {
+  width: 144rem;
+}
+.icici_landing_page .icici_product_wrapper {
+  grid-template-columns: 90rem auto;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products {
+  background-color: #fff2e3;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_search_box .icici_search_input_container .icici_search_input {
+  padding: 1rem 4rem;
+  width: 68rem;
+  height: 8rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #f2e4d6;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(248, 111, 0, 0.15);
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_search_box .icici_search_input_container .icici_search_input::-moz-placeholder {
+  color: #8b8b8b;
+  font-family: Open Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  position: relative;
+  top: 0.4rem;
+  left: 1.6rem;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_search_box .icici_search_input_container .icici_search_input::placeholder {
+  color: #8b8b8b;
+  font-family: Open Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  position: relative;
+  top: 0.4rem;
+  left: 1.6rem;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_search_box .icici_search_input_container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1.6rem;
+  transform: translateY(-35%);
+  background: url("/images/icici_search_icon.svg") no-repeat;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_current_search_wrapper .icici_current_search_title {
+  color: #414141;
+  font-family: Open Sans;
+  letter-spacing: 0.2px;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_current_search_wrapper .icici_current_search_topic .topic_set .topic_search {
+  top: 0.5rem;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .icici_current_search_wrapper .icici_current_search_topic .topic_set .topic_current .topic_title {
+  color: #004a7f;
+  font-family: Open Sans;
+}
+.icici_landing_page .icici_product_wrapper .icici_serching_products .icici_ad_part_left .view_more {
+  color: #004a7f;
+  font-family: Open Sans;
+  text-decoration-line: none;
+}/*# sourceMappingURL=main.css.map */

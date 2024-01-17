@@ -1,0 +1,7 @@
+.icici_landing_page {
+  width: 144rem;
+}
+.icici_landing_page .icici_searching_products {
+  display: grid;
+  grid-template-columns: 90rem auto;
+}/*# sourceMappingURL=index.css.map */

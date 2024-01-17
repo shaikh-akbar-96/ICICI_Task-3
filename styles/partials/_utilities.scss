@@ -1,0 +1,112 @@
+// display -> flex grid;
+.d-grid {
+  display: grid;
+}
+.d-flex {
+  display: flex;
+}
+.d-block {
+  display: block;
+}
+.d-inline-flex {
+  display: inline-flex;
+}
+.d-none {
+  display: none;
+}
+
+.dn.dnone {
+  display: none;
+}
+.d-ib {
+  display: inline-block;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+// position
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+// margin
+.mt-22 {
+  margin-top: 2.2rem;
+}
+.mt-40 {
+  margin-top: 4rem;
+}
+.mr-16 {
+  margin-right: 1.6rem;
+}
+.mr-18 {
+  margin-right: 1.8rem;
+}
+.mr-46 {
+  margin-right: 4.6rem;
+}
+.mb-12 {
+  margin-bottom: 1.2rem;
+}
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.mb-110 {
+  margin-bottom: 11rem;
+}
+.mb-110 {
+  margin-bottom: 11rem;
+}
+
+.ml-31 {
+  margin-left: 3.1rem;
+}
+.ml-60 {
+  margin-left: 6rem;
+}
+// padding
+// width
+
+.w-14 {
+  width: 1.4rem;
+}
+// text-property
+// common things
+.inline-block {
+  display: inline-block;
+}

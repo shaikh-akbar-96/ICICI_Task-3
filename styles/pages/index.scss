@@ -1,0 +1,70 @@
+.icici_landing_page {
+  width: 144rem;
+
+  .icici_product_wrapper {
+    grid-template-columns: 90rem auto;
+    .icici_serching_products {
+      background-color: $bg-orange-4;
+      .icici_ad_part_left {
+        .icici_search_box {
+          .icici_search_input_container {
+            .icici_search_input {
+              padding: 1rem 4rem;
+              width: 68rem;
+              height: 8rem;
+              box-sizing: border-box;
+              border-radius: 5px;
+              border: 1px solid #f2e4d6;
+              background: #fff;
+              box-shadow: 0px 10px 20px 0px rgba(248, 111, 0, 0.15);
+            }
+            .icici_search_input::placeholder {
+              color: #8b8b8b;
+              font-family: Open Sans;
+              font-size: 1.6rem;
+              font-weight: 400;
+              position: relative;
+              top: 0.4rem;
+              left: 1.6rem;
+            }
+          }
+          .icici_search_input_container::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 1.6rem;
+            transform: translateY(-35%);
+            background: url("/images/icici_search_icon.svg") no-repeat;
+            width: 2.8rem;
+            height: 2.8rem;
+          }
+        }
+        .icici_current_search_wrapper {
+          .icici_current_search_title {
+            color: #414141;
+            font-family: Open Sans;
+            letter-spacing: 0.2px;
+          }
+          .icici_current_search_topic {
+            .topic_set {
+              .topic_search {
+                top: 0.5rem;
+              }
+              .topic_current {
+                .topic_title {
+                  color: #004a7f;
+                  font-family: Open Sans;
+                }
+              }
+            }
+          }
+        }
+        .view_more {
+          color: #004a7f;
+          font-family: Open Sans;
+          text-decoration-line: none;
+        }
+      }
+    }
+  }
+}
